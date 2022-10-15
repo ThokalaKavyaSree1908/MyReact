@@ -18,7 +18,7 @@ function ViewItems() {
       if (it.item === item.item) {
         return {
           ...it,
-          isStriked: !it.isStriked
+          isStriked: !it.isStriked,
         };
       } else {
         return it;
